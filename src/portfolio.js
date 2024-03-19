@@ -20,8 +20,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "James Sotta",
+  title: "Hi all, I'm Sotta",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
@@ -126,24 +126,25 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName: "Odessa National Polytechnic Universityard University",
+      logo: require("./assets/images/Odessa.jfif"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      duration: "September 2011 - September 2015",
+      desc: "Participated in the research of Python and published 3 papers.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        // "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        // "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
+    // ,
+    // {
+    //   schoolName: "Stanford University",
+    //   logo: require("./assets/images/stanfordLogo.png"),
+    //   subHeader: "Bachelor of Science in Computer Science",
+    //   duration: "September 2013 - April 2017",
+    //   desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+    //   descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    // }
   ]
 };
 
@@ -174,28 +175,28 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Senior Full Stack Developer",
+      company: "Wild Codes",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "jul 2022 – Feb 2024 ",
+      desc: "Lead a team of five developers, providing mentorship and technical guidance, resulting in a 20% improvement in team productivity..",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        // "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        // "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "Full Stack Developer",
+      company: "Danavero",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Apr 2019 – Jul 2022",
+      desc: "Developed and executed successful SEO and analytics strategies to enhance the app's visibility and drive traffic."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
+      role: "Full Stack Developer",
+      company: "OSDB",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
+      date: "Jul 2017 – Apr 2019",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
@@ -213,28 +214,30 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "eCommerce Site",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "eCommerce Site",
+      projectDesc:
+        "I was in charge of implementing new features, reviewing code from other developers, contributing to architectural decisions, and ensuring regular maintenance and improvement of the codebase.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://www.producthunt.com"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Webhookie website in Angular",
+      projectDesc:
+        "We have created this webhook wesbite in Angular which provides the capability to deploy robust webhook infrastructure that takes care of guaranteed delivery to your subscribers.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.producthunt.com"
         }
       ]
     }
