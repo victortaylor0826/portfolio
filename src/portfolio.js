@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "James Sotta",
+  username: "DONNS ROBBINS",
   title: "Hi all, I'm Sotta",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
@@ -33,13 +33,13 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
+  github: "https://github.com/victortaylor0826",
   linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  gmail: "jacobfarmer0000@gmail.com",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -197,7 +197,7 @@ const workExperiences = {
       company: "OSDB",
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "Jul 2017 – Apr 2019",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Utilized and implemented 5֡ responsive and stunning websites that attract millions of visits per year using HTML, CSS, and React.js. Participated in large-scale projects and had been responsible for RESTful APIs with Express.js and Python."
     }
   ]
 };
@@ -214,30 +214,30 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "eCommerce Site",
+  subtitle: "",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/saayaHealthLogo.png"),
       projectName: "eCommerce Site",
       projectDesc:
         "I was in charge of implementing new features, reviewing code from other developers, contributing to architectural decisions, and ensuring regular maintenance and improvement of the codebase.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://www.producthunt.com"
+          url: "https://qogita.com"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Webhookie website in Angular",
+      image: require("./assets/images/dc.png"),
+      projectName: "Downeast Capital",
       projectDesc:
-        "We have created this webhook wesbite in Angular which provides the capability to deploy robust webhook infrastructure that takes care of guaranteed delivery to your subscribers.",
+        "A SPA (single-page application) website for aprivate mortgage company. It utilizes serverless hosting using AWS S3, CloudFront, Lambda, Route53, and SES.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://www.producthunt.com"
+          url: "https://downeastcapital.com/"
         }
       ]
     }
@@ -346,7 +346,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -359,7 +359,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -367,14 +367,14 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "jacobfarmer0000@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
